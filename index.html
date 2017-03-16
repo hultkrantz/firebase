@@ -26,6 +26,9 @@
 			// Om autentisering lyckas, så finns användarinfo i user
 			Console.log("Lyckades")
 			let user = result.user;
+		})
+		.catch(function(error) {
+   console.log(error);
 		});
 	</script>
 </body>
