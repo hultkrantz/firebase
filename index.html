@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<title>Firebase</title>
-	<link rel="stylesheet" type="text/css" href="firebase.css">
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Firebase DB test">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="firebase.css">
+	<title>Firebase Database demo</title>
+	
 	<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
-</head>
+	<script>
+	  // Initialize Firebase
 
+	</script>
+</head>
 <body>
-	<h1>Firebase</h1>
+	
+	<h1>Välkommen till vårt ZOO</h1>
 	<p>
-		<input text="inputNamn" placeholder="Djurnamn"></inpit>
-		<input text="inputFamilj" placeholder="Familjnamn"></inpit>
-		<input text="inputAnta" placeholder="Antal"></inpit>
-		<inpit text="inputFarg" placeholder="Färg"></inpit>
-		<button id="addButton" value="">knapp</button>
+		Lägga till ett djur
+		<input id="inputNamn" type="text" placeholder="Djurnamn"/>
+		<input id="inputFamilj" type="text" placeholder="Familj typ däggdjur"/>
+		<input id="inputAntal" type="text" placeholder="Antal"/>
+		<input id="inputFärg" type="text" placeholder="Färg"/>
+		<button id="addButton">Lägg till djur</button>
 	</p>
+	
+	<table id="tableVisaDjur"></table>
+	
+	<script type="text/javascript">
+		// För att garantera att inga DOM-element är null
+
+	</script>
 	<script type="text/javascript" src="firebase.js"></script>
 </body>
-
 </html>
+
