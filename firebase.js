@@ -15,6 +15,7 @@ window.addEventListener('load', function () {
 			, färg: färg.value
 		})
 	});
+	console.log("Innan firebase")
 	firebase.database().ref('djur/').on('value', function (snapshot) {
 		console.log('Första gången eller ändring i databasen');
 		let data = snapshot.val();
