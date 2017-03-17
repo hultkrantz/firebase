@@ -1,5 +1,6 @@
 
 window.addEventListener('load', function () {
+	console.log("window load");
 	let namn = document.getElementById('inputNamn');
 	let familj = document.getElementById('inputFamilj');
 	let antal = document.getElementById('inputAntal');
